@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $quicksand;
+}
+
+@media (max-width:768px){
+    #home section {
+        padding:0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}
